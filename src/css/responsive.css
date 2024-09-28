@@ -1,0 +1,79 @@
+@media screen and (max-width:1350px){
+    body{
+        height: 100%;
+        background-size: contain;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 8rem 8rem 4rem;
+    }
+
+    .section_hero {
+        width: 100%;
+    }
+
+    .section_hero .img_logo {
+        width: 240px;
+    }
+
+    .section_hero .img_banner {
+        margin-block: 6rem 0;
+    }
+
+    .main_content {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .main_content .section_cta {
+        max-width: 520px;
+    }
+
+    .main_content .section_cta p {
+        margin-top: 1rem;
+    }
+
+    .main_content :no-button {
+        width: 75%;
+    }
+
+    .main_content .social_media_icons {
+        align-self: center;
+        margin-top: 10rem;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: contain;
+        background-color: var(--Violet);
+    }
+
+    .container {
+        min-width: 320px;
+        padding: 4rem 3rem;
+        gap: 5rem;
+    }
+
+    .section_hero .img_logo {
+        width: 160px;
+    }
+
+    .main_content .section_cta h1 {
+        font-size: 2.8rem;
+        max-width: 350px;
+        margin-inline: auto;
+    }
+
+    .main_content .section_cta p {
+        width: 95%;
+    }
+
+    .main_content .social_media_icons a {
+        font-size: 2rem;
+    }
+}
